@@ -1,0 +1,135 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Asar|Merriweather');
+
+/* make the background color for every page white*/
+/*keep everything easy to read*/
+/*use fun colors*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+.main-banner {
+	background: url(../images/lotsofsmiles.png);
+	background-size: 200px;
+	background-position: 0% 30%;
+	height: 250px;
+	width: 100%;
+	position: relative;
+}
+.main{
+    position: absolute;
+    margin:0;
+    font-family:'Merriweather', serif;
+    font-size: 75px;
+    top: 40%;
+    left: 50%;
+    margin-right:-50%;
+    background-color: white;
+    transform:translate(-50%, -50%);
+    border-style:  double;
+    
+}
+ nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	overflow:hidden;
+	/*position:absolute;*/
+	width: 100%;
+}
+ nav ul li {
+	float:left;
+	border-right:1px solid white;
+	width:25%;
+}
+ nav ul li a {
+	font-size: 24px;
+	text-decoration: none;
+	color: white;
+	display: block;
+    transition: .25s;
+	text-align: center;
+}
+ nav ul li a:hover {
+	background: pink;
+	color: purple;
+	border-radius: 10px;
+	font-weight: 700;
+ }
+ 
+ 
+/*make sure everything matches with classes on each page, for consistency*/
+
+.teeth{
+	text-align:center;
+	font-size:50px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+}
+.love-teeth{
+    text-align:center;
+    font-size: 40px;
+    color: purple;
+    padding-bottom: 8px;
+}
+.fun-facts ul{
+    text-align: center;
+    font-size: 34px;
+    padding-bottom: 8px;
+}
+.fun-facts ul:hover{
+	background: pink;
+	border-radius: 10px;
+	
+	
+}
+.fun-facts li{
+    text-align: left;
+    padding-left: 60px;
+    color: blue;
+    font-size:22px;
+
+}
+.teeth-life{
+	text-align:center;
+	font-size:30px;
+	font-style: italic;
+	color: purple;
+}
+.row{
+	width:100%;
+	overflow:auto;
+}
+.col-2{
+	width:50%;
+	float: left;
+	position: relative;
+	text-align:center;
+}
+.col-2 img{
+	border:10px solid red;
+	padding: 10px 10px 10px 10px;
+}
+#footer{
+	text-align:center;
+	font-size:40px;
+	font-style: italic;
+	color: purple;
+}
+
+	
+	
+
+	
+
+/*refer to fun sites on you tube and web sites*/
+/* center headings and put some space above and below */
+
+
